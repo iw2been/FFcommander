@@ -65,9 +65,9 @@ mp3mbr = ttk.Radiobutton(frame1, text='mp3 medio bitrate', variable=opt, value='
 wave = ttk.Radiobutton(frame1, text='Wav', variable=opt, value='1')
 var = StringVar()
 var.set(in_directory)
-song_title = Label(video_conv, font='Helvetica 12 bold', textvariable=var)
+box_title = Label(video_conv, font='Helvetica 12 bold', textvariable=var)
 
-song_title.grid(column=0, row=5, sticky="W")
+box_title.grid(column=0, row=5, sticky="W")
 Button1.grid(column=0, row=1, columnspan=4, sticky="W")
 Button2.grid(column=0, row=2, columnspan=4, sticky="W")
 Button3.grid(column=0, row=1, columnspan=4, sticky="W")
