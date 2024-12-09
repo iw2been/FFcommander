@@ -51,7 +51,7 @@ def crediti():
    crediti = Tk()
    crediti.title("About")
    crediti.geometry("400x100")
-   label = Label(crediti, text="Interfaccia per un uso umano di ffmpeg.\nSviluppata in Python v.3 da Stefano Scalmani.\nDistribuita su licenza Creative Commons\n\"Attribuzione - Non Commerciale - Condividi allo stesso modo\".\nAttenzione: questo software è sperimentale e non offro alcuna garanzia")
+   label = Label(crediti, text="Interfaccia per un uso umano di ffmpeg.\nSviluppata in Python v.3 da Stefano Scalmani.\nDistribuita su licenza MIT\n"".\nAttenzione: questo software è sperimentale e non offro alcuna garanzia")
    label.pack()
 
 Button1 = ttk.Button(frame1, width=30, text='Solo audio', command=audio)
